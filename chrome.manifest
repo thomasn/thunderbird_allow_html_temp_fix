@@ -1,0 +1,28 @@
+content allowhtmltemp jar:chrome/allowhtmltemp.jar!/content/allowhtmltemp/
+
+skin allowhtmltemp classic/1.0 jar:chrome/allowhtmltemp-tb.jar!/skin/classic/allowhtmltemp/
+
+locale allowhtmltemp en-US jar:chrome/allowhtmltemp.jar!/locale/en-US/allowhtmltemp/
+locale allowhtmltemp cs-CZ jar:chrome/allowhtmltemp.jar!/locale/cs-CZ/allowhtmltemp/
+locale allowhtmltemp da-DK jar:chrome/allowhtmltemp.jar!/locale/da-DK/allowhtmltemp/
+locale allowhtmltemp de-DE jar:chrome/allowhtmltemp.jar!/locale/de-DE/allowhtmltemp/
+locale allowhtmltemp de-AT jar:chrome/allowhtmltemp.jar!/locale/de-DE/allowhtmltemp/
+locale allowhtmltemp de-AT jar:chrome/allowhtmltemp.jar!/locale/de-AT/allowhtmltemp/
+locale allowhtmltemp el-GR jar:chrome/allowhtmltemp.jar!/locale/el-GR/allowhtmltemp/
+locale allowhtmltemp es-ES jar:chrome/allowhtmltemp.jar!/locale/es-ES/allowhtmltemp/
+locale allowhtmltemp fr-FR jar:chrome/allowhtmltemp.jar!/locale/fr-FR/allowhtmltemp/
+locale allowhtmltemp hr-HR jar:chrome/allowhtmltemp.jar!/locale/hr-HR/allowhtmltemp/
+locale allowhtmltemp it-IT jar:chrome/allowhtmltemp.jar!/locale/it-IT/allowhtmltemp/
+locale allowhtmltemp nl-NL jar:chrome/allowhtmltemp.jar!/locale/nl-NL/allowhtmltemp/
+locale allowhtmltemp pl-PL jar:chrome/allowhtmltemp.jar!/locale/pl-PL/allowhtmltemp/
+locale allowhtmltemp pt-BR jar:chrome/allowhtmltemp.jar!/locale/pt-BR/allowhtmltemp/
+locale allowhtmltemp ru-RU jar:chrome/allowhtmltemp.jar!/locale/ru-RU/allowhtmltemp/
+locale allowhtmltemp sk-SK jar:chrome/allowhtmltemp.jar!/locale/sk-SK/allowhtmltemp/
+locale allowhtmltemp zh-CN jar:chrome/allowhtmltemp.jar!/locale/zh-CN/allowhtmltemp/
+locale allowhtmltemp zh-TW jar:chrome/allowhtmltemp.jar!/locale/zh-TW/allowhtmltemp/
+
+overlay chrome://global/content/customizeToolbar.xul chrome://allowhtmltemp/content/AHTcustToolOverlay.xul
+overlay chrome://messenger/content/mailWindowOverlay.xul chrome://allowhtmltemp/content/AHTtoolbarbutton.xul
+overlay chrome://messenger/content/mailWindowOverlay.xul chrome://allowhtmltemp/content/AHTcontextmenu.xul
+overlay chrome://messenger/content/mailWindowOverlay.xul chrome://allowhtmltemp/content/AHTheaderOverlay.xul
+overlay chrome://messenger/content/mailWindowOverlay.xul chrome://allowhtmltemp/content/AHTstatusbarOverlay.xul

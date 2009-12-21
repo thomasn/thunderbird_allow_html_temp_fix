@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>{532269cf-a10e-4396-8613-b5d9a9a516d4}</em:id>
+    <em:version>2.0.1</em:version>
+    <em:type>2</em:type>
+  
+    <!-- Target Application this extension can install into, 
+        with minimum and maximum supported versions. --> 
+    <em:targetApplication>
+      <Description>
+        <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
+        <em:minVersion>2.0</em:minVersion>
+        <em:maxVersion>3.0a1</em:maxVersion>
+      </Description>
+      <Description>
+        <!-- Seamonkey -->
+        <em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
+        <em:minVersion>1.1</em:minVersion>
+        <em:maxVersion>1.1.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+    
+    <!-- Front End MetaData -->
+    <em:name>Allow HTML Temp</em:name>
+    <em:description>Erlaubt HTML per Klick temporär für die aktuelle Nachricht</em:description>
+    <em:creator>Alexander Ihrig</em:creator>
+    <em:homepageURL>http://www.thunderbird-mail.de/wiki/Allow_HTML_temp_(english)</em:homepageURL>
+
+    <!-- Front End Integration Hooks (used by Extension Manager)-->
+    <em:iconURL>chrome://allowhtmltemp/skin/allowhtmltemp.png</em:iconURL>    
+		<em:optionsURL>chrome://allowhtmltemp/content/AHTprefs.xul</em:optionsURL>
+
+    <!-- Packages, Skins and Locales that this extension registers -->
+    <em:file>
+      <Description about="urn:mozilla:extension:file:allowhtmltemp.jar">
+         <em:package>content/allowhtmltemp/</em:package>
+         <em:locale>locale/en-US/allowhtmltemp/</em:locale>
+         <em:locale>locale/cs-CZ/allowhtmltemp/</em:locale>
+         <em:locale>locale/da-DK/allowhtmltemp/</em:locale>
+         <em:locale>locale/de-DE/allowhtmltemp/</em:locale>
+         <em:locale>locale/de-AT/allowhtmltemp/</em:locale>
+         <em:locale>locale/el-GR/allowhtmltemp/</em:locale>
+         <em:locale>locale/es-ES/allowhtmltemp/</em:locale>
+         <em:locale>locale/fr-FR/allowhtmltemp/</em:locale>
+         <em:locale>locale/hr-HR/allowhtmltemp/</em:locale>
+         <em:locale>locale/it-IT/allowhtmltemp/</em:locale>
+         <em:locale>locale/nl-NL/allowhtmltemp/</em:locale>
+         <em:locale>locale/pl-PL/allowhtmltemp/</em:locale>
+         <em:locale>locale/pt-BR/allowhtmltemp/</em:locale>
+         <em:locale>locale/ru-RU/allowhtmltemp/</em:locale>
+         <em:locale>locale/sk-SK/allowhtmltemp/</em:locale>
+         <em:locale>locale/zh-CN/allowhtmltemp/</em:locale>
+         <em:locale>locale/zh-TW/allowhtmltemp/</em:locale>
+      </Description>
+      <Description about="urn:mozilla:extension:file:allowhtmltemp-tb.jar">
+         <em:skin>skin/classic/allowhtmltemp/</em:skin>
+      </Description>
+    </em:file>
+  </Description>      
+</RDF>
