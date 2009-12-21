@@ -5,7 +5,7 @@
 
   <Description about="urn:mozilla:install-manifest">
     <em:id>{532269cf-a10e-4396-8613-b5d9a9a516d4}</em:id>
-    <em:version>2.0.1</em:version>
+    <em:version>2.0.99</em:version>
     <em:type>2</em:type>
   
     <!-- Target Application this extension can install into, 
@@ -14,7 +14,7 @@
       <Description>
         <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
         <em:minVersion>2.0</em:minVersion>
-        <em:maxVersion>3.0a1</em:maxVersion>
+        <em:maxVersion>3.999</em:maxVersion>
       </Description>
       <Description>
         <!-- Seamonkey -->

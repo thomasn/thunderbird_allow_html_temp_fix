@@ -2,7 +2,7 @@
 // 1. Set parameters of package installation
 const APP_DISPLAY_NAME = "Allow HTML Temp";
 const APP_NAME = "allowhtmltemp";
-const APP_VERSION = "2.0.1";
+const APP_VERSION = "2.0.99";
 
 const supported_locales = ["en-US", "cs-CZ", "da-DK", "de-AT", "el-GR", "es-ES", "fr-FR", "hr-HR", "it-IT", "nl-NL", "pl-PL", "pt-BR", "ru-RU", "sk-SK", "zh-CN", "zh-TW"];
 
